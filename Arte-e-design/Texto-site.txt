@@ -1,0 +1,73 @@
+<!-- HEADER --!> 
+>> MENU > NAV
+Sobre 
+Produtos
+Lojas
+Contato
+*-------------------------------------------------------------------------------------*
+
+<!-- MAIN --!> 
+
+>> INTRO
+Aromas que vão transformar a sua vida
+Produtos 100% puros e naturais
+-------------------------------------------------------------------------------------
+>> ABOUT
+
+Maiores benefícios
+Saúde
+Energização
+
+Os aromas naturais são utilizados na melhora da saúde e bem-estar, além de auxiliarem
+ na energização do ambiente. A exposição aos recursos aromáticos aciona o sistema 
+líbico, proporcionando redução do estresse e ansiedade, melhorando o sono e promovendo
+ o relaxamento da mente e do corpo, além de outros benefícios. 
+-------------------------------------------------------------------------------------
+>> BENEFITS
+Energia e Concentração
+Ajudam a revigorar os sentidos, melhorando a concentração e aumentando o desempenho 
+cerebral, favorecendo o foco em atividades que demandam concentração, proporcionando 
+uma maior energia e disposição na realização de suas atividades diárias.
+
+Alívio da dor
+Devido ao seu efeito relaxante, os aromas ajudam na redução de dores físicas causadas
+por tensões e edemas, além de serem eficazes em tratamentos pós-operatórios. Outro 
+benefício é o auxílio no tratamento a enxaquecas e outras dores crônicas como a 
+fibromialgia. 
+
+Sistema imunológico
+As propriedades aromáticas fornecem aporte ao sistema imunológico devido às ações 
+anti-inflamatórias, antibacterianas e antivirais de alguns óleos essenciais, além de
+fornecer uma proteção contínua contra infecções. 
+-------------------------------------------------------------------------------------
+>> PRODUCTS
+
+Difusor e umidificador 
+Conheça a nossa linha de difusores elétricos que funcionam também como umidificadores
+de ambientes, além de possuírem luzes led que combinam os benefícios da aromaterapia e
+da cromoterapia. 
+
+Difusor de ambientes e velas aromáticas
+Além de todos os benefícios aromáticos, nossos difusores de ambientes e velas aromáticas
+são práticos e lindos itens de decoração, que poderão ser personalizados com itens e
+cores de acordo com a sua preferência.
+
+Colar difusor
+Leve com você nossos aromas de uma forma discreta e elegante. Com design moderno e
+totalmente customizável, nossos colares são produzidos por artesãos especializados em
+utilizar artigos colhidos diretamente da natureza. 
+-------------------------------------------------------------------------------------
+>> NEWSLETTER
+
+Assine nossa Newsletter para promoções e artigos
+
+*-------------------------------------------------------------------------------------*
+
+<!-- FOOTER --!> 
+
+Este material é um projeto de Ana Paula Feriani, meramente ilustrativo e criado para
+fins de prática nos estudos de HTML e CSS e não representa produtos reais e/ou quaisquer
+benefícios provindos da aromaterapia ou outra terapia holística. 
+
+As imagens utilizadas foram baixadas do Freepik e os textos criados pela própria aluna
+e o design foi inspirado na página de estudos criada pela escola Origamid. 
