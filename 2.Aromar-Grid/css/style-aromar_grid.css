@@ -1,0 +1,282 @@
+/* Resets */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Fonts family */
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+  color: var(--cor-verde-escuro);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Variáveis */
+:root {
+  --font-family: "Roboto Slab", serif;
+  --cor-verde-escuro: #232625;
+  --cor-verde-medio: #35403a;
+  --cor-verde-claro: #4c594f;
+  --cor-bege-escuro: #a4a69c;
+  --cor-bege-claro: #bfbfb8;
+  --cor-branco: #f9f9f9;
+}
+
+/* Menu */
+
+.menu {
+  background: var(--cor-verde-escuro);
+  padding: 15px 0px;
+}
+
+.menu__nav a {
+  display: block;
+  text-decoration: none;
+  color: var(--cor-branco);
+  font-size: 1.125em;
+  margin-left: 10px;
+  padding: 10px 0px;
+}
+
+.menu__nav ul {
+  float: right;
+}
+
+.menu__nav ul li {
+  display: inline-block;
+}
+
+/* Intro */
+
+.intro {
+  background: url("../Imagens/Background.png") no-repeat center center;
+  background-size: cover;
+  color: var(--cor-branco);
+  padding: 150px 0px;
+  text-align: center;
+}
+
+.intro h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.intro h1::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 4px;
+  background: var(--cor-branco);
+  margin: 10px auto;
+}
+
+.intro p {
+  font-style: italic;
+  font-size: 1.125em;
+}
+
+/* About */
+.about {
+  padding: 60px 0;
+}
+
+.about h2 {
+  font-size: 2.25em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about__item h3 {
+  font-size: 2.25em;
+  line-height: 1em;
+  background: var(--cor-verde-escuro);
+  color: var(--cor-branco);
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  width: 240px;
+  padding: 5px 0 10px 0;
+  margin-top: -25px;
+}
+
+.about > p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  font-style: italic;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 35px 0 15px 0;
+  text-align: center;
+}
+
+/* Benefits */
+
+.benefits {
+  background: var(--cor-bege-claro);
+  border-top: 3px solid var(--cor-bege-escuro);
+  border-bottom: 3px solid var(--cor-bege-escuro);
+  padding: 60px 0;
+}
+
+.benefits__itens {
+  margin-bottom: 20px;
+}
+
+.benefits__itens h2 {
+  font-size: 2.25em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.benefits__itens h2::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: currentColor;
+  border-radius: 50%;
+  border: 5px solid var(--cor-bege-claro);
+  box-shadow: 0 0 0 5px currentColor;
+  margin: 20px auto;
+}
+
+h2.benefits__itens__energy::before {
+  color: var(--cor-verde-escuro);
+}
+
+h2.benefits__itens__pain::before {
+  color: var(--cor-verde-medio);
+}
+
+h2.benefits__itens__imune::before {
+  color: var(--cor-verde-claro);
+}
+
+.benefits__itens p {
+  font-size: 0.875em;
+  line-height: 1.4em;
+}
+
+.benefits__btn {
+  border: 3px solid var(--cor-verde-escuro);
+  color: var(--cor-verde-escuro);
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  width: 180px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+/* Products */
+
+.products {
+  padding: 60px 0 20px 0;
+}
+
+.products__item {
+  padding-bottom: 40px;
+}
+
+.products__item h2 {
+  font-size: 2.25em;
+  margin-bottom: 20px;
+}
+
+.products__item p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  max-width: 380px;
+}
+
+.products__item a {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid;
+  color: var(--cor-verde-escuro);
+  padding: 10px 20px;
+}
+
+/* Newsletter */
+
+.newsletter {
+  background: var(--cor-bege-escuro);
+  padding: 30px 0;
+}
+
+.newsletter__info h2 {
+  font-size: 2.25em;
+}
+
+.newsletter__info p {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.newsletter form label {
+  display: none;
+}
+
+.newsletter input {
+  border: 3px solid var(--cor-verde-escuro);
+  background: none;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: Georgia, serif;
+  padding: 10px;
+  float: left;
+  width: calc(100% - 140px);
+}
+
+.newsletter button {
+  background: var(--cor-verde-escuro);
+  border: none;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: var(--cor-branco);
+  cursor: pointer;
+  width: 140px;
+  padding: 13px 0;
+  float: left;
+}
+
+/*Footer*/
+.footer img {
+  margin: 0 auto;
+}
+
+.footer {
+  background: var(--cor-bege-claro);
+}
+
+.footer p {
+  font-size: 0.75em;
+  line-height: 1.4em;
+  margin: 20px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--cor-verde-escuro);
+  font-weight: bold;
+}
